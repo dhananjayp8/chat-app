@@ -58,6 +58,7 @@ body {
   height: 40px;
   width: 350px;
   border: 1px solid yellow;
+  color: black;
 }
 
 .chat_body input::placeholder {
@@ -76,9 +77,9 @@ body {
 
 .message_content {
   display: flex;
-  line-height: 0;
+  /* line-height: 0;
   margin: 10px;
-  font-weight: bolder;
+  font-weight: bolder; */
 }
 
 #you {
